@@ -1,0 +1,60 @@
+h2 {
+    color : red;
+}
+
+.highlight {
+    border : solid;
+}
+
+#profile {
+    border : solid;
+    border-color : blue;
+}
+
+#profile>img {
+    width : 50px;
+    border : solid;
+    border-radius: 50%;
+}
+
+#csstest {
+    color : #ff0000;
+    font-style : italic;
+    font-weight: 900;
+    font-variant : small-caps;
+    font-size : 2em;
+    font-family : "Lato";
+    text-align: center;
+    text-decoration: underline;
+    background-color : #ffff00;
+    background-image : url(image/h1.jpg);
+    background-position-y : -200px;
+    background-position-x: 200px;
+}
+
+.page>img {
+    width: 60px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display : block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border : solid;
+    border-color: gray;
+    border-top-width : 5px;
+    border-bottom-width : 3px;
+    border-left-width : 2px;
+    border-right-width : 1px;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-left-color: green;
+    border-right-color: yellow;
+    border-radius: 5px;
+}
+
+.info_name {
+    font-weight : bold;
+}
